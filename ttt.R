@@ -1,4 +1,5 @@
-mysummary <- function(x,npar=TRUE,print=TRUE) {
+mysummary <- function(x,npar=TRUE,print=TRUE) {      
+
   if (!npar) {
     center <- mean(x); spread <- sd(x) 
   } else {
